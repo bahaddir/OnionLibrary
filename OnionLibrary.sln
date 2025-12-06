@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionLibrary.WebApi", "OnionLibrary.WebApi\OnionLibrary.WebApi.csproj", "{281802C0-F3C4-4582-ACD2-7178D7BE061F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionLibrary.InnerInfrastructure", "OnionLibrary.InnerInfrastructure\OnionLibrary.InnerInfrastructure.csproj", "{5B6085DE-0E26-4A3B-B733-AA4ED1321F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionLibrary.ValidatorStructor", "OnionLibrary.ValidatorStructor\OnionLibrary.ValidatorStructor.csproj", "{42594FE1-9C40-4E4D-8769-9F3E858171FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5B6085DE-0E26-4A3B-B733-AA4ED1321F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B6085DE-0E26-4A3B-B733-AA4ED1321F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B6085DE-0E26-4A3B-B733-AA4ED1321F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42594FE1-9C40-4E4D-8769-9F3E858171FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42594FE1-9C40-4E4D-8769-9F3E858171FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42594FE1-9C40-4E4D-8769-9F3E858171FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42594FE1-9C40-4E4D-8769-9F3E858171FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{A2B51ACB-4C5E-4B67-8A8C-EFCE8B8F80CF} = {B8D63D49-1CAF-4D16-B185-2824ED8F0549}
 		{281802C0-F3C4-4582-ACD2-7178D7BE061F} = {8BC33771-45B1-4DAA-818C-0E77AF46ECCC}
 		{5B6085DE-0E26-4A3B-B733-AA4ED1321F74} = {B8D63D49-1CAF-4D16-B185-2824ED8F0549}
+		{42594FE1-9C40-4E4D-8769-9F3E858171FD} = {B8D63D49-1CAF-4D16-B185-2824ED8F0549}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FAB5C26-CFB9-4386-BE7D-B3C98B99F366}
