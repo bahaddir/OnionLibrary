@@ -18,6 +18,7 @@
     <ProjectReference Include="..\OnionLibrary.Application\OnionLibrary.Application.csproj" />
     <ProjectReference Include="..\OnionLibrary.InnerInfrastructure\OnionLibrary.InnerInfrastructure.csproj" />
     <ProjectReference Include="..\OnionLibrary.Persistence\OnionLibrary.Persistence.csproj" />
+    <ProjectReference Include="..\OnionLibrary.ValidatorStructor\OnionLibrary.ValidatorStructor.csproj" />
   </ItemGroup>
 
 </Project>

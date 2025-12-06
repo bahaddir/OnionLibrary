@@ -2,6 +2,7 @@ using OnionLibrary.Application.DependencyResolvers;
 using OnionLibrary.InnerInfrastructure.DependencyResolvers;
 using OnionLibrary.Persistence.DependencyResolvers;
 using OnionLibrary.WebApi.DependencyResolvers;
+using OnionLibrary.ValidatorStructor.DependencyResolvers;
 namespace OnionLibrary.WebApi
 {
     public class Program
@@ -22,6 +23,7 @@ namespace OnionLibrary.WebApi
             builder.Services.AddManagerService();
             builder.Services.AddDtoMapperService();
             builder.Services.AddVmMapperService();
+            builder.Services.AddValidatorService();
 
 
             var app = builder.Build();
