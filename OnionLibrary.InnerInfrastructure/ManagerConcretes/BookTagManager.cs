@@ -6,7 +6,7 @@ using OnionLibrary.Contract.RepositoryInterfaces;
 
 namespace OnionLibrary.InnerInfrastructure.ManagerConcretes
 {
-    public class BookTagManager(IBookTagRepository repository, IMapper mapper) : BaseManager<BookTagDto, BookTag>(repository, mapper), IBookTagManager
+    public class BookTagManager(IBookTagRepository repository, IMapper mapper, IServiceProvider serviceProvider) : BaseManager<BookTagDto, BookTag>(repository, mapper,serviceProvider), IBookTagManager
     {
         private readonly IBookTagRepository _repository = repository;
     }

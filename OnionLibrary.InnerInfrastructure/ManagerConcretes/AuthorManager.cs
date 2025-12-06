@@ -13,7 +13,7 @@ namespace OnionLibrary.InnerInfrastructure.ManagerConcretes
 {
     
 
-    public class AuthorManager(IAuthorRepository repository, IMapper mapper) : BaseManager<AuthorDto, Author>(repository, mapper), IAuthorManager
+    public class AuthorManager(IAuthorRepository repository, IMapper mapper, IServiceProvider serviceProvider) : BaseManager<AuthorDto, Author>(repository, mapper, serviceProvider), IAuthorManager
     {
         private readonly IAuthorRepository _repository = repository;
     }
